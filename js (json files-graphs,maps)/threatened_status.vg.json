@@ -1,0 +1,13 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Threatened Species Status",
+    "data": {
+        "url": "https://raw.githubusercontent.com/dbin0017/FIT2179-DV2/refs/heads/main/data%20(csv%20files)/threatened_species_state_list.csv"
+    },
+    "mark": "bar",
+    "encoding": {
+        "x": {"field": "Threatened status", "type": "nominal", "sort": "-y"},
+        "y": {"aggregate": "count", "type": "quantitative", "title": "Number of Species"},
+        "color": {"field": "Kingdom", "type": "nominal"}
+    }
+}
