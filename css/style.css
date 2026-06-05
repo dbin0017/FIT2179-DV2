@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Using class selector for different types of text*/
 
 h1 {
@@ -36,3 +37,53 @@ p {
     margin-top: 100px;
 }
 
+.pure-u-1 {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.pure-u-1-2 {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+=======
+/*Using class selector for different types of text*/
+
+h1 {
+  
+  color:saddlebrown;
+  font-family: "Ultra", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+h2 {
+    color:darkgoldenrod;
+    font-family: "Ultra", serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: left;
+}
+
+p {
+    color: black;
+    font-family: "Stack Sans Headline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.outer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.chart-container {
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+>>>>>>> a0f5e0ec6630f136a947bb027ecf663bb9fdac03
